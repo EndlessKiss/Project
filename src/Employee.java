@@ -39,7 +39,6 @@ public class Employee {
         this.salary = salary;
         this.id = ++counter;
     }
-
     @Override
     public String toString() {
         return "Id: " + id + " Name: " + name + " Department: " + department + " Salary:$ " + salary;
